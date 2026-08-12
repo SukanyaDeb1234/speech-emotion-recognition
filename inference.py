@@ -22,13 +22,9 @@ MODEL_NAME = "openai/whisper-large-v3"
 
 BASE_DIR = Path(__file__).resolve().parent
 
-CHECKPOINT_PATH = (
-    BASE_DIR / "models" / "best_whisper_mlp.pt"
-)
+CHECKPOINT_PATH = BASE_DIR / "best_whisper_mlp.pt"
 
-SCALER_PATH = (
-    BASE_DIR / "models" / "whisper_scaler.pkl"
-)
+SCALER_PATH = BASE_DIR / "whisper_scaler.pkl"
 
 EMOTIONS = [
     "anger",
