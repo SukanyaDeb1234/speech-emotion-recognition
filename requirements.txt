@@ -1,7 +1,9 @@
 streamlit
 torch
-transformers
-soundfile
+torchvision
 torchaudio
-joblib
+transformers
 numpy
+soundfile
+joblib
+scikit-learn
